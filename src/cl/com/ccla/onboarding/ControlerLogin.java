@@ -46,7 +46,7 @@ public class ControlerLogin extends HttpServlet {
 		HttpSession userSession= request.getSession(true);
 		userSession.setAttribute("userSession", usuario);
 		
-//		response.sendRedirect("success.jsp");
+//		response.sendRedirect("success.jsp"); //quizas se necesite redireccionar de esta forma
 		
 		PrintWriter out = response.getWriter();
 		Gson gson = new Gson();
