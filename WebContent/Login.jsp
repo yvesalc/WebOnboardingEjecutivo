@@ -65,7 +65,7 @@ $(document).ready(function(){
 					}					
 					
 				}else {
-					alert("usuario ingresado NO vigente");
+					alert("usuario ingresado NO es vigente");
 				}
                 
 
