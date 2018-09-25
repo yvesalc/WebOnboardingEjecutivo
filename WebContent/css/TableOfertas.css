@@ -1,0 +1,10 @@
+        .cat-cell-modified {
+            font-style: italic;
+            font-weight: bold;
+            background-color: #ffffc5;
+        }
+        .cat-cell-original {
+            font-style: normal;
+            font-weight: normal;
+            color: #747474;
+        }
